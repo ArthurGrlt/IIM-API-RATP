@@ -71,7 +71,7 @@ function templateProblem(lineType, line){
     let template = document.querySelector('.col--traffic')
     template.innerHTML += '<div class="row">' + 
     '<div class="col-sm-4">' + lineType + '' + line.line + '</div>'+
-    '<div class="col-sm-8">' + line.message + '</div>'
+    '<div class="col-sm-8">' + line.message + '</div>'+
     '</div>'
 }
 
